@@ -22,7 +22,7 @@ func (h *Handler) InitRouters() *gin.Engine {
 		auth.POST("/sing-in", h.singIn)
 	}
 
-	api := router.Group("/api")
+	api := router.Group("/api", h.userIdentity)
 	{
 		lists := api.Group("/lists")
 		{
