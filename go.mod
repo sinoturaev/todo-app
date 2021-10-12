@@ -11,6 +11,7 @@ require (
 	github.com/coreos/etcd v3.3.10+incompatible // indirect
 	github.com/coreos/go-etcd v2.0.0+incompatible // indirect
 	github.com/cznic/ql v1.2.0 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/gin-gonic/gin v1.7.4 // indirect
 	github.com/go-ini/ini v1.39.0 // indirect
 	github.com/go-playground/validator/v10 v10.9.0 // indirect
@@ -26,6 +27,8 @@ require (
 	github.com/jackc/pgx v3.6.2+incompatible // indirect
 	github.com/jackc/pgx/v4 v4.10.1 // indirect
 	github.com/jinzhu/gorm v1.9.16 // indirect
+	github.com/jmoiron/sqlx v1.3.4 // indirect
+	github.com/joho/godotenv v1.4.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/jtolds/gls v4.2.1+incompatible // indirect
 	github.com/kshvakov/clickhouse v1.3.4 // indirect
@@ -37,6 +40,7 @@ require (
 	github.com/prometheus/client_golang v0.8.0 // indirect
 	github.com/prometheus/common v0.0.0-20180801064454-c7de2306084e // indirect
 	github.com/prometheus/procfs v0.0.0-20180920065004-418d78d0b9a7 // indirect
+	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d // indirect
 	github.com/smartystreets/goconvey v0.0.0-20180222194500-ef6db91d284a // indirect
 	github.com/spf13/viper v1.9.0 // indirect
