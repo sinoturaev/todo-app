@@ -15,8 +15,9 @@ type UsersList struct {
 }
 
 type TodoItem struct {
-	Title       string `json:"title" db:"id"`
-	Description string `json:"description" binding:"required"`
+	Id int `json:"id" db:"id"`
+	Title       string `json:"title" binding:"required"`
+	Description string `json:"description"`
 	Done        bool   `json:"done" db:"done"`
 }
 

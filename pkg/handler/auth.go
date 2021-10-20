@@ -2,7 +2,7 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	 "github.com/sinoturaev/todo-app"
+	"github.com/sinoturaev/todo-app"
 	"net/http"
 )
 
